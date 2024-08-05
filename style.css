@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(189, 124, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    width: 420px;
+    background-color: antiquewhite;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.login-container .ctn {
+    text-align: center;
+}
+
+.login-container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.login-container .inputbox {
+    width: 100%;
+    height: 51px;
+    margin: 30px 0;
+
+}
+
+.inputbox input {
+    width: 80%;
+    height: 60%;
+    border-radius: 40px;
+    font-size: 15px;
+    padding: 8px 15px 10px 20px;
+    border: 10px;
+}
+
+.login-container .button {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 18px;
+}
+
+.button button {
+    width: 89%;
+    height: 100%;
+    border-radius: 40px;
+    font-weight: bolder;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+
+}
+
+
+.button:hover {
+    background-position: right center;
+}
+
+.signup .spc {
+    margin-left: 10px;
+    text-decoration: none;
+}
+.container table{
+background-color: antiquewhite;
+border-radius: 8px;
+
+width: 100%;
+height: 100%;
+padding: 10px 40px;
+
+
+text-align: left;
+}
+th{
+    padding: 10px 40px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+td{
+    padding: 10px 40px;
+}
